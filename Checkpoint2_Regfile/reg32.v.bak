@@ -1,0 +1,16 @@
+module reg32(in,enable,clk,out);
+
+  input [31:0] in;
+  input clk;
+  output [31:0] out;
+  
+  generate
+	 genvar i;
+	     for(i=0;i<32;i=i+1)
+		  begin:start
+	         dffe_ref dff1(out[i], in[i], clk, enable, 1'b0);
+	     end
+  endgenerate
+  generate
+  
+endmodule

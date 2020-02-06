@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'frequency_divider:frediv_2|out_clk'
+Slack : -29.875
+TNS   : -25155.064
+
+Type  : Slow 1200mV 85C Model Setup 'frequency_divider:frediv_1|out_clk'
+Slack : -26.365
+TNS   : -807.847
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -1.917
+TNS   : -25.456
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : -0.360
+TNS   : -0.360
+
+Type  : Slow 1200mV 85C Model Hold 'frequency_divider:frediv_1|out_clk'
+Slack : 1.008
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'frequency_divider:frediv_2|out_clk'
+Slack : 1.980
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -47.373
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'frequency_divider:frediv_1|out_clk'
+Slack : -2.693
+TNS   : -130.549
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'frequency_divider:frediv_2|out_clk'
+Slack : -1.285
+TNS   : -1315.840
+
+Type  : Slow 1200mV 0C Model Setup 'frequency_divider:frediv_2|out_clk'
+Slack : -27.380
+TNS   : -23151.589
+
+Type  : Slow 1200mV 0C Model Setup 'frequency_divider:frediv_1|out_clk'
+Slack : -24.265
+TNS   : -744.098
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -1.642
+TNS   : -22.147
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : -0.294
+TNS   : -0.294
+
+Type  : Slow 1200mV 0C Model Hold 'frequency_divider:frediv_1|out_clk'
+Slack : 0.987
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'frequency_divider:frediv_2|out_clk'
+Slack : 1.783
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -46.669
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'frequency_divider:frediv_1|out_clk'
+Slack : -2.649
+TNS   : -128.437
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'frequency_divider:frediv_2|out_clk'
+Slack : -1.285
+TNS   : -1315.840
+
+Type  : Fast 1200mV 0C Model Setup 'frequency_divider:frediv_2|out_clk'
+Slack : -14.542
+TNS   : -12171.508
+
+Type  : Fast 1200mV 0C Model Setup 'frequency_divider:frediv_1|out_clk'
+Slack : -12.796
+TNS   : -382.438
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -0.868
+TNS   : -10.772
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : -0.350
+TNS   : -0.350
+
+Type  : Fast 1200mV 0C Model Hold 'frequency_divider:frediv_1|out_clk'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'frequency_divider:frediv_2|out_clk'
+Slack : 0.894
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -22.082
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'frequency_divider:frediv_2|out_clk'
+Slack : -1.000
+TNS   : -1024.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'frequency_divider:frediv_1|out_clk'
+Slack : -1.000
+TNS   : -49.000
+
+------------------------------------------------------------

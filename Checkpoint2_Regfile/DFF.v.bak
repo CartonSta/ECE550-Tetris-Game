@@ -1,0 +1,25 @@
+module Dlatch(data,en,Q);
+
+    input data,en;
+	 output Q;
+	 wire R,S,not_data,not_Q;
+	 
+	 not not1(not_data,data);
+	 and and1(R,en,not_data);
+	 and and2(S,en,data);
+	 not not2(not_Q,Q);
+    nor nor1(not_Q,S,Q);
+	 nor nor2(Q,R,not_Q);
+
+endmodule
+
+
+module DFF(data,clk,Q);
+    input data,clk;
+	 output Q;
+    wire not_clk,data_temp;
+
+    Dlatch D1(data,not_clk,data_temp);
+	 Dlatch D2(data_temp,clk,Q);
+	 
+endmodule

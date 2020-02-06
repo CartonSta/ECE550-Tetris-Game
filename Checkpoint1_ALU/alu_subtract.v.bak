@@ -1,0 +1,37 @@
+module alu_subtract(data_operandA, data_operandB, result_subtract,
+ isNotEqual, isLessThan, overflow);
+
+    input [31:0] data_operandA, data_operandB;
+	 
+	 output [31:0] result_subtract;
+    output isNotEqual, isLessThan,overflow;
+	 
+	 wire [31:0] not_data_operandB, temp;
+	 wire [32:0] temp2;
+	 wire sign_check;
+	 
+	 genvar i;
+	 generate
+	     for(i=0;i<16;i=i+1)
+		  begin:bit
+            not not1(not_data_operandB[i], data_operandB[i]);
+	     end
+	 endgenerate
+	 RCA RCA1(not_data_operandB[15:0], 1, 0, temp[15:0], co1);
+	 RCA RCA2(not_data_operandB[31:16], 0, co1, temp[31:16], co2);
+	 alu_add alu_add1(data_operandA[31:0], temp[31:0], result_subtract[31:0], overflow);
+	 
+	 temp2[0] <= 0;
+	 genvar j;
+	 generate
+	     for(j=0;j<32;j=j+1)
+		  begin:bit
+            or or1(temp2[j+1], result_subtract[j], temp2[j]);
+	     end
+	 endgenerate
+	 xor xor1(sign_check ,data_operandA[31], data_operandB[31]);
+	 or or2(isNotEqual, temp2[32], sign_check);
+	 
+	 
+	 
+endmodule

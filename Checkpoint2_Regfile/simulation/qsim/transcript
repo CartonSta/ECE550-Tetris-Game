@@ -1,0 +1,32 @@
+# do regfile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:03:27 on Sep 30,2019
+# vlog -work work regfile.vo 
+# -- Compiling module decoder5to32
+# 
+# Top level modules:
+# 	decoder5to32
+# End time: 10:03:27 on Sep 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 10:03:27 on Sep 30,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module decoder5to32_vlg_vec_tst
+# 
+# Top level modules:
+# 	decoder5to32_vlg_vec_tst
+# End time: 10:03:27 on Sep 30,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.decoder5to32_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 10:03:27 on Sep 30,2019
+# Loading work.decoder5to32_vlg_vec_tst
+# Loading work.decoder5to32
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Note: $finish    : Waveform.vwf.vt(45)
+#    Time: 1 us  Iteration: 0  Instance: /decoder5to32_vlg_vec_tst
+# End time: 10:03:28 on Sep 30,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

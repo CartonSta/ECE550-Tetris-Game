@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/11789/Desktop/ECE 550/temp/simulation/qsim
+vskeleton
+Z1 !s110 1573181076
+!i10b 1
+!s100 I8464Y6aEKSmz;U=oj@JP2
+INSQZ]BUV>Gjjc?iHAaQ?71
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573181075
+Z3 8skeleton.vo
+Z4 Fskeleton.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1573181076.000000
+Z8 !s107 skeleton.vo|
+Z9 !s90 -work|work|skeleton.vo|
+!i113 1
+Z10 o-work work
+vskeleton_temp
+Z11 !s110 1573186141
+!i10b 1
+!s100 B6GT9<m=dXkKQ>RESV==Z0
+IcNZ>I7I47l[39T[A5dikC3
+R2
+R0
+w1573186140
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z12 !s108 1573186141.000000
+R8
+R9
+!i113 1
+R10
+vskeleton_temp_vlg_vec_tst
+R11
+!i10b 1
+!s100 c:WkaZe=6nzcZ^zXG>=md1
+Ij<Unm`3fS:>m:ZGck4hA`2
+R2
+R0
+w1573186138
+Z13 8Waveform1.vwf.vt
+Z14 FWaveform1.vwf.vt
+Z15 L0 30
+R6
+r1
+!s85 0
+31
+R12
+!s107 Waveform1.vwf.vt|
+Z16 !s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+vskeleton_vlg_vec_tst
+R1
+!i10b 1
+!s100 T`K45Wg^nnhJ5MN>1IQ@j1
+IXz89LLl@GODK3nj23E5J00
+R2
+R0
+w1573181074
+R13
+R14
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+R16
+!i113 1
+R10

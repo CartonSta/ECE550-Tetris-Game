@@ -1,0 +1,15 @@
+module alu_and(data_operandA, data_operandB);
+
+    input [31:0] data_operandA, data_operandB;
+	 
+	 output [31:0] data_result;
+    
+	 genvar i;
+	 generate
+	     for(i=0;i<32;i=i+1)
+		  begin:bit
+		      and and1(data_result[i],data_operandA[i],data_operandB[i]);
+		  end
+	 endgenerate
+	 
+endmodule

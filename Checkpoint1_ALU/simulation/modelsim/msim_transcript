@@ -1,0 +1,236 @@
+# Reading C:/altera/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:58 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:56:58 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:58 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v 
+# -- Compiling module full_adder
+# -- Compiling module RCA
+# -- Compiling module alu_add
+# 
+# Top level modules:
+# 	alu_add
+# End time: 21:56:58 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/mux8to1.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:58 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/mux8to1.v 
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_and.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_and.v 
+# -- Compiling module alu_and
+# 
+# Top level modules:
+# 	alu_and
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_or.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_or.v 
+# -- Compiling module alu_or
+# 
+# Top level modules:
+# 	alu_or
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v 
+# -- Compiling module alu_subtract
+# 
+# Top level modules:
+# 	alu_subtract
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v 
+# -- Compiling module sll_1
+# -- Compiling module sll_2
+# -- Compiling module sll_3
+# -- Compiling module sll_4
+# -- Compiling module sll_5
+# -- Compiling module alu_sll
+# 
+# Top level modules:
+# 	alu_sll
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_sra.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_sra.v 
+# -- Compiling module sra_1
+# -- Compiling module sra_2
+# -- Compiling module sra_3
+# -- Compiling module sra_4
+# -- Compiling module sra_5
+# -- Compiling module alu_sra
+# 
+# Top level modules:
+# 	alu_sra
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v 
+# -- Compiling module mux2to1
+# 
+# Top level modules:
+# 	mux2to1
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/11789/Desktop/ECE\ 550/project\ 1 {C:/Users/11789/Desktop/ECE 550/project 1/alu_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:56:59 on Sep 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/11789/Desktop/ECE 550/project 1" C:/Users/11789/Desktop/ECE 550/project 1/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 21:56:59 on Sep 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 21:56:59 on Sep 17,2019
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.alu_add
+# Loading work.RCA
+# Loading work.full_adder
+# Loading work.alu_subtract
+# Loading work.alu_and
+# Loading work.alu_or
+# Loading work.alu_sll
+# Loading work.sll_1
+# Loading work.mux2to1
+# Loading work.sll_2
+# Loading work.sll_3
+# Loading work.sll_4
+# Loading work.sll_5
+# Loading work.alu_sra
+# Loading work.sra_1
+# Loading work.sra_2
+# Loading work.sra_3
+# Loading work.sra_4
+# Loading work.sra_5
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v(22): [PCDPC] - Port size (16) does not match connection size (32) for port 'in2'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtract32/RCA1 File: C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v(23): [PCDPC] - Port size (16) does not match connection size (32) for port 'in2'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtract32/RCA2 File: C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v
+# ** Warning: (vsim-3017) C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v(24): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/subtract32/alu_add1 File: C:/Users/11789/Desktop/ECE 550/project 1/alu_add.v
+# ** Warning: (vsim-3722) C:/Users/11789/Desktop/ECE 550/project 1/alu_subtract.v(24): [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(7): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s1/mux10 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(24): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s2/mux20 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(25): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s2/mux21 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(42): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s3/mux30 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(43): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s3/mux31 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(44): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s3/mux32 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(45): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s3/mux33 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[0]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[1]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[2]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[3]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[4]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[5]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[6]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s4/start4[7]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[0]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[1]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[2]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[3]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[4]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[5]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[6]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[7]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[8]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[9]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[10]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[11]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[12]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[13]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[14]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# ** Warning: (vsim-3015) C:/Users/11789/Desktop/ECE 550/project 1/alu_sll.v(91): [PCDPC] - Port size (1) does not match connection size (32) for port 'a1'. The port definition is at: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_ut/sll32/s5/start5[15]/mux40 File: C:/Users/11789/Desktop/ECE 550/project 1/mux2to1.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+# The simulation completed without errors
+# ** Note: $stop    : C:/Users/11789/Desktop/ECE 550/project 1/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at C:/Users/11789/Desktop/ECE 550/project 1/alu_tb.v line 51
+# End time: 21:57:18 on Sep 17,2019, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 35

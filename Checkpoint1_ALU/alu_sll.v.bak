@@ -1,0 +1,7 @@
+module alu_sll(data_operandA, data_operandB, result_sll);
+
+    input [31:0] data_operandA, data_operandB;
+	 
+	 output [31:0] result_sll;
+	 
+endmodule
