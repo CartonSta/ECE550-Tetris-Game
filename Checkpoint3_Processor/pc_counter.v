@@ -15,3 +15,4 @@ module pc_counter(clk, rst, pc_in, pc_out);
  end
 
  endmodule
+ 

@@ -108,9 +108,16 @@ module processor(
 	 or or_3(ctrl_ALUop[0],op_decode[5],op_decode[7],op_decode[8]);
 	 or or_4(ctrl_ALUop[1],op_decode[2],op_decode[6],op_decode[22]);
 	 assign ctrl_jal = op_decode[3];
+	 or or_6(ctrl_x,op_decode[22],op_decode[21]);
 	 assign ctrl_bex = op_decode[22];
 	 assign ctrl_setx = op_decode[21];
-	 or or_6(ctrl_x,ctrl_bex,ctrl_setx,overflow);
+	
+	 //dmem
+	 wire [31:0] data_writeReg_1;
+	 assign wren = op_decode[7];
+	 assign data[31:0] = data_readRegB[31:0];
+	 assign address_dmem[11:0] = data_result[11:0];
+	 mux32 mux32_2(data_result[31:0],q_dmem[31:0],ctrl_Rwd,data_writeReg_1[31:0]);
 	 
 	 //alu
 	 wire [31:0] immediate, data_readRegB_new;
@@ -123,14 +130,7 @@ module processor(
     wire isNotEqual, isLessThan, overflow;
 	 alu alu_1(data_readRegA[31:0],data_readRegB_new[31:0],ALUop[4:0],q_imem[11:7],
 	 data_result[31:0],isNotEqual,isLessThan,overflow);
-
-	 //dmem
-	 wire [31:0] data_writeReg_1;
-	 assign wren = op_decode[7];
-	 assign data[31:0] = data_readRegB[31:0];
-	 assign address_dmem[11:0] = data_result[11:0];
-	 mux32 mux32_2(data_result[31:0],q_dmem[31:0],ctrl_Rwd,data_writeReg_1[31:0]);
-	 
+	
  	 //imem
 	 wire [31:0] pc, pc_0, pc_1, pc_2, pc_3, pc_4, pc_5;
 	 wire bne, blt, isNotLessThan;
@@ -153,12 +153,9 @@ module processor(
 	 assign address_imem[11:0] = pc_0[11:0];
 	
 	 //regfile
-	 wire [31:0] data_writeReg_2,data_writeReg_3,data_overflow,data_overflow_1;
-	 mux32 mux32_10(32'h00000001,32'h00000003,q_imem[0],data_overflow_1[31:0]);
-	 mux32 mux32_11(data_overflow_1[31:0],32'h00000002,op_decode[2],data_overflow[31:0]);
+	 wire [31:0] data_writeReg_2;
 	 mux32 mux32_7(data_writeReg_1[31:0],data_sx[31:0],ctrl_setx,data_writeReg_2[31:0]);
-	 mux32 mux32_8(data_writeReg_2[31:0],pc_1[31:0],ctrl_jal,data_writeReg_3[31:0]);
-	 mux32 mux32_9(data_writeReg_3[31:0],data_overflow[31:0],overflow,data_writeReg[31:0]);
+	 mux32 mux32_8(data_writeReg_2[31:0],pc_1[31:0],ctrl_jal,data_writeReg[31:0]);
 	 or or_5(ctrl_writeEnable,op_decode[0],op_decode[5],op_decode[8],
 	 op_decode[3],op_decode[21]);
 	 mux5 mux5_2(q_imem[21:17],5'b00000,ctrl_bex,ctrl_readRegA[4:0]);

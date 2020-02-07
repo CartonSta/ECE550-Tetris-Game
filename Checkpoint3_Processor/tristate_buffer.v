@@ -1,4 +1,3 @@
-
 module tristate_buffer(in, enable, out);
 
     input [31:0] in;

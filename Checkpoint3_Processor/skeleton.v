@@ -10,6 +10,7 @@
  */
 
 module skeleton(clock, reset, imem_clock, dmem_clock, processor_clock, regfile_clock);
+
     input clock, reset;
     output imem_clock, dmem_clock, processor_clock, regfile_clock;
 	 
@@ -17,9 +18,9 @@ module skeleton(clock, reset, imem_clock, dmem_clock, processor_clock, regfile_c
 	 frequency_divider frediv_1(clock,reset,clk_div2);
 	 frequency_divider frediv_2(clk_div2,reset,clk_div4);
 	 assign imem_clock = clock;
-	 assign regfile_clock = clk_div4;
-	 assign processor_clock = clk_div4;
-	 assign dmem_clock = clk_div2;
+	 assign regfile_clock = ~clk_div4;
+	 assign processor_clock = ~clk_div4;
+	 assign dmem_clock = ~clk_div2;
 	 
     /** IMEM **/
     // Figure out how to generate a Quartus syncram component and commit the generated verilog file.
@@ -53,16 +54,17 @@ module skeleton(clock, reset, imem_clock, dmem_clock, processor_clock, regfile_c
     wire [4:0] ctrl_writeReg, ctrl_readRegA, ctrl_readRegB;
     wire [31:0] data_writeReg;
     wire [31:0] data_readRegA, data_readRegB;
+
     regfile my_regfile(
         regfile_clock,
         ctrl_writeEnable,
-        ctrl_reset,
+        reset,
         ctrl_writeReg,
         ctrl_readRegA,
         ctrl_readRegB,
         data_writeReg,
         data_readRegA,
-        data_readRegB
+        data_readRegB,
     );
 
     /** PROCESSOR **/

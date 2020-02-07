@@ -1,9 +1,6 @@
-
-module regfile(
-clock, ctrl_writeEnable, ctrl_reset, ctrl_writeReg,
+module regfile(clock, ctrl_writeEnable, ctrl_reset, ctrl_writeReg,
 ctrl_readRegA, ctrl_readRegB, data_writeReg, data_readRegA, data_readRegB,
-//modified
-reg2, reg3, reg4, reg5, reg6, reg8, reg30, reg31
+reg1, reg2, reg3, reg4, reg5, reg6, reg7, reg31
 );
 
     input clock, ctrl_writeEnable, ctrl_reset;
@@ -60,15 +57,14 @@ reg2, reg3, reg4, reg5, reg6, reg8, reg30, reg31
 	     end
 	 endgenerate
 	 
-	 //modified
-	 output [31:0] reg2, reg3, reg4, reg5, reg6, reg8, reg30, reg31;
+	 output [31:0] reg1, reg2, reg3, reg4, reg5, reg6, reg7, reg31;
+	 assign reg1[31:0] = data_toread[1][31:0];
 	 assign reg2[31:0] = data_toread[2][31:0];
 	 assign reg3[31:0] = data_toread[3][31:0];
 	 assign reg4[31:0] = data_toread[4][31:0];
 	 assign reg5[31:0] = data_toread[5][31:0];
 	 assign reg6[31:0] = data_toread[6][31:0];
-	 assign reg8[31:0] = data_toread[8][31:0];
-	 assign reg30[31:0] = data_toread[30][31:0];
+	 assign reg7[31:0] = data_toread[7][31:0];
 	 assign reg31[31:0] = data_toread[31][31:0];
 	 
 endmodule
